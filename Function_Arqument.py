@@ -5,5 +5,5 @@ def indexed_func(*ags):
     return result
 
 
-Enteris = input("Enter your arguments: ")
-print(indexed_func(*Enteris.split(" ")))
+Enteries = input("Enter your arguments: ")
+print(indexed_func(*Enteries.split(" ")))

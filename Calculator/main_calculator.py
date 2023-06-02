@@ -18,7 +18,7 @@ if __name__ == "__main__":
             for num in nums:
                 assert float(num)
             nums = list(map(lambda item: float(item), nums))
-            print(f"Result = {operation(nums)}")
+            print(f"Result = {operation(*nums)}")
         except AssertionError:
             print("All entries must be digit")
         except ValueError:
